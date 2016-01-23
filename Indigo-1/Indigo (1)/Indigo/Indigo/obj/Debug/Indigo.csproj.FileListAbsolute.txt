@@ -1,0 +1,40 @@
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\bin\Debug\Indigo.exe.config
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\Indigo.csprojResolveAssemblyReference.cache
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\OptionWindow.baml
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\ScoreControl.baml
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\MainWindow.g.cs
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\OptionWindow.g.cs
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\ScoreControl.g.cs
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\App.g.cs
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\Indigo_MarkupCompile.cache
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\Indigo_MarkupCompile.lref
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\bin\Debug\Indigo.exe
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\bin\Debug\Indigo.pdb
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\MainWindow.baml
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\Indigo.g.resources
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\Indigo.Properties.Resources.resources
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\Indigo.csproj.GenerateResource.Cache
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\Indigo.exe
+c:\users\gustav\documents\visual studio 2013\Projects\Indigo\Indigo\obj\Debug\Indigo.pdb
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\bin\Debug\Indigo.exe.config
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Indigo.exe
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Indigo.pdb
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\bin\Debug\Indigo.exe
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\bin\Debug\Indigo.pdb
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Indigo.csprojResolveAssemblyReference.cache
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\OptionWindow.baml
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\ScoreControl.baml
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\MainWindow.g.cs
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\OptionWindow.g.cs
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\ScoreControl.g.cs
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\App.g.cs
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Indigo_MarkupCompile.cache
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Indigo_MarkupCompile.lref
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\MainWindow.baml
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Indigo.g.resources
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Indigo.Properties.Resources.resources
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Indigo.csproj.GenerateResource.Cache
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\StartMeny.baml
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\StartMeny.g.cs
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Meny.baml
+C:\Users\Jack\Desktop\Indigo (1)\Indigo\Indigo\obj\Debug\Meny.g.cs

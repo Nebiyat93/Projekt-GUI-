@@ -1,0 +1,17 @@
+﻿<Window x:Class="Indigo.OptionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OptionWindow" MaxHeight="300" MaxWidth="300" MinHeight="300" MinWidth="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <Label>Icon Set:</Label>
+                <ComboBox 
+                    Width="200" 
+                    ItemsSource="{Binding Path=AvailableIconSets}"
+                    SelectedItem="{Binding Path=SelectedIconSet}"
+                    />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

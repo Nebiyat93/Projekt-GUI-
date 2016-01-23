@@ -1,0 +1,94 @@
+﻿<Window x:Class="Indigo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Indigo"
+        Title="MainWindow" Height="600" Width="676" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush TileMode="None" ImageSource="images/wallpaper.jpg"></ImageBrush>
+    </Window.Background>
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static local:GameCommands.NewGameSinglePlayer}" Executed="NewGameSinglePlayerCommand_Executed"></CommandBinding>
+        <CommandBinding Command="{x:Static local:GameCommands.Options}" Executed="OptionsCommand_Executed"></CommandBinding>
+        <CommandBinding Command="ApplicationCommands.Close" Executed="Button_Click"></CommandBinding>
+    </Window.CommandBindings>
+    <Window.Resources>
+        <Style x:Key="RectangleStyle">
+            <Setter Property="Rectangle.RadiusX" Value="10"/>
+            <Setter Property="Rectangle.RadiusY" Value="10"/>
+            <Setter Property="Rectangle.Margin" Value="5"/>
+            <EventSetter Event="Rectangle.MouseLeftButtonUp" Handler="rectangleLeftMouseButtonUp"></EventSetter>
+        </Style>
+        <Style x:Key="BorderStyle">
+            <Setter Property="Border.BorderBrush" Value="Transparent"></Setter>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=IsActive}" Value="True">
+                    <Setter Property="Border.BorderBrush" Value="Transparent"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="StackPanelStyle">
+            <Setter Property="StackPanel.Background" Value="Transparent"></Setter>
+            <Setter Property="DockPanel.Dock" Value="Left"></Setter>
+            <Style.Triggers>
+                <Trigger Property="StackPanel.DataContext" Value="{x:Null}">
+                    <Setter Property="StackPanel.Visibility" Value="Collapsed"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <Grid x:Name="gameGrid" DockPanel.Dock="Left" ShowGridLines="False" Height="512" Width="640" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="128"/>
+                <RowDefinition Height="128"/>
+                <RowDefinition Height="128"/>
+                <RowDefinition Height="128"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="128"/>
+                <ColumnDefinition Width="128"/>
+                <ColumnDefinition Width="128"/>
+                <ColumnDefinition Width="128"/>
+                <ColumnDefinition Width="128"/>
+
+
+            </Grid.ColumnDefinitions>
+            <Button Command="local:GameCommands.Options" Grid.Row="2" Grid.Column="4" Margin="30,40,0,40" BorderBrush="Transparent"> 
+                <Button.Background>
+                    <ImageBrush ImageSource="images/MENY.png"></ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button Command="local:GameCommands.NewGameSinglePlayer" Grid.Row="1" Grid.Column="4" Margin="30,40,0,40" BorderBrush="Transparent">
+                <Button.Background>
+                    <ImageBrush ImageSource="images/STARTAOM.png"></ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button Command="ApplicationCommands.Close" Grid.Row="3" Grid.Column="4" Margin="30,40,0,40" BorderBrush="Transparent">
+                <Button.Background>
+                    <ImageBrush ImageSource="images/AVSLUTA.png"></ImageBrush>
+                </Button.Background>
+            </Button>
+
+            <Rectangle Grid.Row="0" Grid.Column="0" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}"/>
+            <Rectangle Grid.Row="0" Grid.Column="1" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}" Margin="5"/>
+            <Rectangle Grid.Row="0" Grid.Column="2" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}" Margin="5"/>
+            <Rectangle Grid.Row="0" Grid.Column="3"  Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}"/>
+
+            <Rectangle Grid.Row="1" Grid.Column="0" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}"/>
+            <Rectangle Grid.Row="1" Grid.Column="1" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}" Margin="5"/>
+            <Rectangle Grid.Row="1" Grid.Column="2" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}" Margin="5"/>
+            <Rectangle Grid.Row="1" Grid.Column="3" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}"/>
+
+            <Rectangle Grid.Row="2" Grid.Column="0" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}"/>
+            <Rectangle Grid.Row="2" Grid.Column="1" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}" Margin="5"/>
+            <Rectangle Grid.Row="2" Grid.Column="2" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}" Margin="5"/>
+            <Rectangle Grid.Row="2" Grid.Column="3" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}"/>
+
+            <Rectangle Grid.Row="3" Grid.Column="0" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}"/>
+            <Rectangle Grid.Row="3" Grid.Column="1" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}" Margin="5"/>
+            <Rectangle Grid.Row="3" Grid.Column="2" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}" Margin="5"/>
+            <Rectangle Grid.Row="3" Grid.Column="3" Fill="{Binding Path=ActiveImage}" Style="{StaticResource ResourceKey=RectangleStyle}"/>
+        </Grid>
+
+    </DockPanel>
+</Window>
